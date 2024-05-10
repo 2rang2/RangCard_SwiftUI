@@ -11,6 +11,8 @@
 		260315292BEE23EA007121B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260315282BEE23EA007121B8 /* ContentView.swift */; };
 		2603152B2BEE23EB007121B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2603152A2BEE23EB007121B8 /* Assets.xcassets */; };
 		2603152E2BEE23EB007121B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2603152D2BEE23EB007121B8 /* Preview Assets.xcassets */; };
+		260315362BEE2637007121B8 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 260315352BEE2637007121B8 /* Pacifico-Regular.ttf */; };
+		260315392BEE3558007121B8 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260315382BEE3558007121B8 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		260315282BEE23EA007121B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2603152A2BEE23EB007121B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2603152D2BEE23EB007121B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		260315352BEE2637007121B8 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		260315372BEE2CBF007121B8 /* RangCard-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "RangCard-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		260315382BEE3558007121B8 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		260315252BEE23EA007121B8 /* RangCard_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				260315372BEE2CBF007121B8 /* RangCard-SwiftUI-Info.plist */,
+				260315342BEE261C007121B8 /* fonts */,
 				260315262BEE23EA007121B8 /* RangCard_SwiftUIApp.swift */,
 				260315282BEE23EA007121B8 /* ContentView.swift */,
+				260315382BEE3558007121B8 /* InfoView.swift */,
 				2603152A2BEE23EB007121B8 /* Assets.xcassets */,
 				2603152C2BEE23EB007121B8 /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				2603152D2BEE23EB007121B8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		260315342BEE261C007121B8 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				260315352BEE2637007121B8 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260315362BEE2637007121B8 /* Pacifico-Regular.ttf in Resources */,
 				2603152E2BEE23EB007121B8 /* Preview Assets.xcassets in Resources */,
 				2603152B2BEE23EB007121B8 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				260315292BEE23EA007121B8 /* ContentView.swift in Sources */,
+				260315392BEE3558007121B8 /* InfoView.swift in Sources */,
 				260315272BEE23EA007121B8 /* RangCard_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +292,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RangCard_SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RangCard-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +321,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RangCard_SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RangCard-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
